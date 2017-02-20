@@ -15,7 +15,7 @@ export default class Medal extends Component {
     event:    PropTypes.string.isRequired,
     category: PropTypes.string.isRequired,
   };
-  
+
   render() {
     return (
       <li className="medal">
